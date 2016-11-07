@@ -73,7 +73,7 @@ public class  RightTriangle extends TriangularShape {
     public double calcPerimeter() {
         return sideA+sideB+calcSideC();
     }
-    
+
 
     public double calcSideC() {
         return Math.sqrt(sideA*sideA+sideB*sideB);
